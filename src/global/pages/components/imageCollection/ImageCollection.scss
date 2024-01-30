@@ -1,0 +1,10 @@
+.imageCollectionContainer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    margin-top: 50px;
+    >img{
+        width: 350px;
+        object-fit: cover;
+    }
+}

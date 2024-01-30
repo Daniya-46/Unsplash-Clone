@@ -1,0 +1,31 @@
+.heroContainer{
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    &::after {
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(128, 128, 128, 0.411);
+        }
+    >div{
+        position: relative;
+        z-index: 10;
+        width: 40%;
+        color: white;
+        
+    >h1{
+        font-size: 50px;
+    }
+    >span{
+        font-size: 20px;
+    }
+    }
+     
+}
